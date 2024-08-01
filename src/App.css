@@ -33,20 +33,20 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    .h2_box{
-        font-size: 25px;
-        font-weight: 600;
-    }
     img{
         width: 35%;
         height: 35%;
     }
     hr{
         width: 90%;
-        background-color: var(--black);
+        height: 1px;
+        background-color: black;
     }
 }
-
+.h2_box{
+    font-size: 25px;
+    font-weight: 600;
+}
 @media (max-width: 1346px) {
     .lesson{
         width: 100%;
