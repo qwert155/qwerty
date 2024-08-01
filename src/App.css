@@ -112,6 +112,9 @@
     .img_back{
       width: 80%;
       height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: var(--yellow);
       img{
         width: 70%;
